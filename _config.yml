@@ -1,0 +1,9 @@
+title:            "MAHacks | Blog"
+description:      "MAHacks is a Boston-area hackathon run for high schoolers, by high schoolers. Join us on January 13, 2018!"
+baseurl:          "/blog"
+url:              "http://www.mahacks.com" # no slash at the end.
+
+permalink: /posts/:title
+defaults:
+  - values:
+      layout: "default"

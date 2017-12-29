@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta content="{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}" name="title">
+		<title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+		<!--MAHacks | Blog - Post Name-->
+		
+		<link href="{{ 'css/styles.css' | prepend:site.url}}" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Barlow:300,700,900" rel="stylesheet">
+	</head>
+
+	<body>
+		{% include header.html %}
+
+		{{ content }}
+
+		{% include footer.html %}
+	</body>
+</html>
