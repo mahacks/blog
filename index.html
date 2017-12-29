@@ -4,8 +4,11 @@
 <section>
 	{% for post in site.posts %}
 		<article>
-			<h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
-		{{ post }}
+			<h2><a href="{{ baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+			<p class="info">
+				<span class="date">{{ post.date }}</span> | <span class="author">{{ post.author }}</span>
+			</p>
+		{{ post.content }}
 		</article>
 	{% endfor %}
 		</section>
