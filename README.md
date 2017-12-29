@@ -1,0 +1,2 @@
+# blog
+MAHacks blog
