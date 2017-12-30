@@ -5,7 +5,7 @@ layout: default
 <section>
 	{% for post in site.posts %}
 		<article>
-			<h2><a href="{{ post.url | prepend:'blog' }}">{{ post.title }}</a></h2>
+			<h2>{{ post.title }}</h2>
 			<p class="info">
 				<span class="author">By {{ post.author }}</span> | <span class="date">{{ post.date | date_to_string }}</span>
 			</p>
