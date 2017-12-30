@@ -72,12 +72,17 @@ footer {
 	padding: 2.5rem 25%;
 }
 
-h2 {
+h2, h3 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
-	font-size: 2rem;
 	line-height: 130%;
+}
+h2 {
+	font-size: 2rem;
 	margin-bottom: .5rem;
+}
+h3 {
+	font-size: 1.75rem;
 }
 p {
 	font-size: 1.15rem;
