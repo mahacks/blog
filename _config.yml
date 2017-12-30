@@ -6,4 +6,4 @@ url:              "http://www.mahacks.com" # no slash at the end.
 permalink: :title
 defaults:
   - values:
-      layout: "default"
+      layout: "post"
