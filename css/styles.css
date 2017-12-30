@@ -60,10 +60,10 @@ header a {
 
 section {
 	width: 50%;
-	margin: 25rem auto 2.5rem;
+	margin: 26.5rem auto 2.5rem;
 }
 article {
-	padding: 1.5rem 0;
+	padding: 2rem 0;
 }
 footer {
 	width: 100%;
@@ -81,7 +81,8 @@ h2 {
 	margin-bottom: .5rem;
 }
 h3 {
-	font-size: 1.75rem;
+	font-size: 1.65rem;
+	color: #333;
 }
 p {
 	font-size: 1.15rem;
