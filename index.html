@@ -6,7 +6,7 @@
 		<article>
 			<h2><a href="{{ baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 			<p class="info">
-				<span class="date">{{ post.date }}</span> | <span class="author">{{ post.author }}</span>
+				<span class="author">By {{ post.author }}</span> | <span class="date">{{ post.date | date_to_string }}</span>
 			</p>
 		{{ post.content }}
 		</article>

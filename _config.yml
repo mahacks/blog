@@ -3,7 +3,7 @@ description:      "MAHacks is a Boston-area hackathon run for high schoolers, by
 baseurl:          "/blog"
 url:              "http://www.mahacks.com" # no slash at the end.
 
-permalink: /blog/:title
+permalink: /posts/:title
 defaults:
   - values:
       layout: "default"
